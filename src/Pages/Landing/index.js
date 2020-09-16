@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Button from '@material-ui/core/Button';
 import SearchIcon from '@material-ui/icons/Search';
 
 import logo from '../../assets/images/logo.svg';
@@ -24,10 +26,10 @@ function Landing() {
             </div>
             <ul className="login">
                 <li>
-                    <button>Login</button>
+                    <Button>Login</Button>
                 </li>
                 <li>
-                    <button className="register">Registrar</button>
+                    <Button variant="contained" color="secondary">Registrar</Button>
                 </li>
             </ul>
         </div>

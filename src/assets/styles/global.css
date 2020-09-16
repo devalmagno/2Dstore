@@ -1,0 +1,42 @@
+:root {
+    --color-background: #FDFFFC;
+    --color-primary: #020100;
+    --color-secondary: #ED1C24;
+    --color-yellow: #F1D302;
+    --color-blue: #235789;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100vh;
+}
+
+body {
+    background: var(--color-background);
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1rem Poppins;
+    color: var(--color-primary);
+}
+
+#container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media (min-width: 700px) {
+    #root {
+        font-size: 62.5%;
+    }
+}
