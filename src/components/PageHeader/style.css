@@ -38,11 +38,11 @@
     padding: 0.1rem 0.4rem;
 }
 
-.login {
-    display: none;
+.burger {
+    cursor: pointer;
 }
 
-.menuOpenIcon {
+.isNotVisible {
     display: none;
 }
 
@@ -76,6 +76,24 @@
 
 .orders .carrinho {
     margin-right: 0.6rem;
+}
+
+.login {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: var(--color-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5 ease-in;
+}
+
+.login-active {
+    transform: translateX(0%);
 }
 
 @media(min-width: 730px) {

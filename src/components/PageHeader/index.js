@@ -13,6 +13,16 @@ import logoMobile from '../../assets/images/logoMobile.svg';
 import './style.css';
 
 function PageHeader() {
+    const navSlide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.login')
+
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('login-active')
+            console.log('clicou');
+        })
+    }
+
     return (
         <div>
             <div id="header">
@@ -25,10 +35,10 @@ function PageHeader() {
                     </button>
                 </div>
                 <div className="burger">
-                    <div className="menuIcon">
+                    <div className="menuClosed">
                         <MenuIcon fontSize="Large" />
                     </div>
-                    <div className="menuOpenIcon">
+                    <div className="menuOpen isNotVisible">
                         <MenuOpenIcon fontSize="Large" />
                     </div>
                 </div>
