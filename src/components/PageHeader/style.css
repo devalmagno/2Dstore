@@ -4,10 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.logo {
-    margin-left: 0.625rem;
+    padding: 0.6rem;
 }
 
 .logoDesktop {
@@ -39,6 +36,8 @@
 }
 
 .burger {
+    border: 0;
+    background-color: none;
     cursor: pointer;
 }
 
@@ -79,24 +78,32 @@
 }
 
 .login {
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background-color: var(--color-blue);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.5 ease-in;
+    display: none;
 }
 
+@media(max-width: 975px) {
+    .login {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 9.7vh;
+        background-color: var(--color-primary-light);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translateX(100%);
+        transition: transform 0.5 ease-in;
+        padding: 1rem 0;
+    }
+}
+
+    
 .login-active {
     transform: translateX(0%);
 }
 
-@media(min-width: 730px) {
+@media(min-width: 740px) {
     .logoDesktop {
         display: block;
     }
@@ -135,3 +142,4 @@
         font-size: 1.5rem;
     }
 }
+

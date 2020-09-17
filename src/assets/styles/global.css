@@ -1,6 +1,7 @@
 :root {
     --color-background: #FDFFFC;
     --color-primary: #020100;
+    --color-primary-light: #02010030;
     --color-secondary: #ED1C24;
     --color-yellow: #F1D302;
     --color-blue: #235789;
@@ -10,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 html,

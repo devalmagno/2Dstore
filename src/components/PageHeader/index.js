@@ -1,5 +1,7 @@
 import React from 'react';
 
+import navSlide from '../../scripts/navSlide';
+
 import Button from '@material-ui/core/Button';
 import SearchIcon from '@material-ui/icons/Search';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -13,16 +15,6 @@ import logoMobile from '../../assets/images/logoMobile.svg';
 import './style.css';
 
 function PageHeader() {
-    const navSlide = () => {
-        const burger = document.querySelector('.burger');
-        const nav = document.querySelector('.login')
-
-        burger.addEventListener('click', () => {
-            nav.classList.toggle('login-active')
-            console.log('clicou');
-        })
-    }
-
     return (
         <div>
             <div id="header">
@@ -34,7 +26,7 @@ function PageHeader() {
                         <SearchIcon style={{ color: '#FDFFFC' }} />
                     </button>
                 </div>
-                <div className="burger">
+                <div className="burger" onClick={navSlide}>
                     <div className="menuClosed">
                         <MenuIcon fontSize="Large" />
                     </div>
