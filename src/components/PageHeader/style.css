@@ -42,12 +42,40 @@
     display: none;
 }
 
+.menuOpenIcon {
+    display: none;
+}
+
 .header-info {
     height: 1.5rem;
     background-color: var(--color-yellow);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 0.2rem;
+    font-size: 0.8rem;
+}
+
+.header-info a {
+    color: var(--color-primary);
+    font-size: 0.8rem;
+}
+
+.orders {
+    display: flex;
+}
+
+.orders a {
+    display: flex;
+    align-items: center;
+}
+
+.orders a span {
+    margin-right: 0.2rem;
+}
+
+.orders .carrinho {
+    margin-right: 0.6rem;
 }
 
 @media(min-width: 730px) {
@@ -61,6 +89,10 @@
 
     .searchText {
         width: 30rem;
+    }
+
+    .header-info {
+        padding: 0 2rem;
     }
 }
 

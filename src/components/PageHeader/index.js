@@ -4,6 +4,8 @@ import Button from '@material-ui/core/Button';
 import SearchIcon from '@material-ui/icons/Search';
 import MenuIcon from '@material-ui/icons/Menu';
 import MenuOpenIcon from '@material-ui/icons/MenuOpen';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import ShopIcon from '@material-ui/icons/Shop';
 
 import logo from '../../assets/images/logo.svg';
 import logoMobile from '../../assets/images/logoMobile.svg';
@@ -23,7 +25,12 @@ function PageHeader() {
                     </button>
                 </div>
                 <div className="burger">
-                    <MenuIcon fontSize="Large" />
+                    <div className="menuIcon">
+                        <MenuIcon fontSize="Large" />
+                    </div>
+                    <div className="menuOpenIcon">
+                        <MenuOpenIcon fontSize="Large" />
+                    </div>
                 </div>
                 <ul className="login">
                     <li>
@@ -35,7 +42,17 @@ function PageHeader() {
                 </ul>
             </div>
             <div className="header-info">
-                <span>Enviar para Fulano, 3100 Caxias - São Paulo</span>
+                <a href="#">Faça o login para continuar</a>
+                <div className="orders">
+                    <a href="#" className="carrinho">
+                        <span>CARRINHO</span>
+                        <ShoppingCartIcon fontSize="small" />
+                    </a>
+                    <a href="#" className="pedidos">
+                        <span>PEDIDOS</span>
+                        <ShopIcon fontSize="small" />
+                    </a>
+                </div>
             </div>
         </div>
     );
