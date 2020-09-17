@@ -1,0 +1,32 @@
+.footer {
+    height: 1.875rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    font-size: 0.7rem;
+}
+
+.links a {
+    color: var(--color-background);
+    text-decoration: none;
+}
+
+.links span {
+    margin: 0 0.3rem;
+}
+
+@media (max-width: 700px) {
+    .footer {
+        display: none;
+    }
+}
+
+
