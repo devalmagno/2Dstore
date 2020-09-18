@@ -2,6 +2,8 @@ import React from 'react';
 
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
+import Offers from '../../assets/images/offers.svg';
+
 import './style.css';
 
 function Item() {
