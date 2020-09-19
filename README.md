@@ -2,8 +2,8 @@
 ### REPO. do Front-end
 
 ## Como abrir o repositório no meu computador?
-Você pode encontrar essa informação no meu <a href="https://www.notion.so/Configurando-o-ambiente-e-DANDO-START-0d0b6c2e84574c1fb7bc26958c032690">NOTION.</a><br>
-<a href="https://www.notion.so/Configurando-o-ambiente-e-DANDO-START-0d0b6c2e84574c1fb7bc26958c032690">Clique aqui para abrir.</a>
+Você pode encontrar essa informação no meu <a href="https://www.notion.so/Configurando-o-ambiente-e-DANDO-START-0d0b6c2e84574c1fb7bc26958c032690" target="_blank">NOTION.</a><br>
+<a href="https://www.notion.so/Configurando-o-ambiente-e-DANDO-START-0d0b6c2e84574c1fb7bc26958c032690" target="_blank">Clique aqui para abrir.</a>
 ## O que já foi feito?
 <p>Home em modo de tela cheia</p>
 <img src="githubIMG/fullscreen.png" alt="fullscreen">
