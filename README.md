@@ -3,4 +3,4 @@
 
 ## O que já foi feito?
 Home em modo de tela cheia:
-<img src="./.github/fullscreen.png" alt="fullscreen">
+<img src="./githubIMG/fullscreen.png" alt="fullscreen">
