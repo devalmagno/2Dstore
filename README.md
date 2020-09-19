@@ -1,8 +1,10 @@
 # 2Dstore | E-Commerce em ReactJS e NodeJS
 ### REPO. do Front-end
 
+## Como abrir o repositório no meu computador?
+
 ## O que já foi feito?
-<p color="#255151">Home em modo de tela cheia</p>
+<p>Home em modo de tela cheia</p>
 <img src="githubIMG/fullscreen.png" alt="fullscreen">
 <br>
 
