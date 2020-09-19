@@ -9,17 +9,17 @@
 <br>
 
 <p>Metade da tela</p>
-<img src="githubIMG/halfscreen.png" alt="fullscreen">
+<img src="githubIMG/halfscreen.png" alt="halfscreen">
 <br>
 
 <p>com o menu aberto</p>
-<img src="githubIMG/halfBurgerOpen.png" alt="fullscreen">
+<img src="githubIMG/halfBurgerOpen.png" alt="halfBurgerOpen">
 <br>
 
 <p>Mínimo possível no navegador EDGE</p>
-<img src="githubIMG/minscreen.png" alt="fullscreen">
+<img src="githubIMG/minscreen.png" alt="minscreen">
 <br>
 
 <p>com o menu aberto</p>
-<img src="githubIMG/halfscreen.png" alt="fullscreen">
+<img src="githubIMG/minBurgerOpen.png" alt="minBurgerOpen">
 <br>
