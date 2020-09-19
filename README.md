@@ -1,6 +1,6 @@
-## 2Dstore | E-Commerce em ReactJS e NodeJS
-# REPO. do Front-end
+# 2Dstore | E-Commerce em ReactJS e NodeJS
+### REPO. do Front-end
 
-### O que já foi feito?
+## O que já foi feito?
 Home em modo de tela cheia:
-<img src="./github/fullscreen.png" alt="fullscreen">
+<img src="./.github/fullscreen.png" alt="fullscreen">
