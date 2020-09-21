@@ -2,7 +2,7 @@
 ### REPO. do Front-end
 
 ## Como abrir o repositório no meu computador?
-#### Os links irão te levar para outra página então os abra em outra aba.
+###### Os links irão te levar para outra página então os abra em outra aba.
 Você pode encontrar essa informação no meu [Notion.](https://www.notion.so/Configurando-o-ambiente-e-DANDO-START-0d0b6c2e84574c1fb7bc26958c032690)<br>
 [Clique aqui para abrir.](https://www.notion.so/Configurando-o-ambiente-e-DANDO-START-0d0b6c2e84574c1fb7bc26958c032690)
 
