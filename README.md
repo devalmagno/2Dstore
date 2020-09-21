@@ -12,9 +12,9 @@ ou
 #### yarn
 
 Depois que o terminal terminar de baixar você poderá abrir a plataforma no seu computador, digitando no terminal:
-### npm start
+#### npm start
 ou
-### yarn start
+#### yarn start
 
 ######  recomendo o yarn
 
