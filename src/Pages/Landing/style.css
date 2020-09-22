@@ -10,6 +10,19 @@ ul {
 .container {
     margin-top: 1rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.container h1 {
+    letter-spacing: -0.25rem;
+    font-size: 2.8rem;
+    color: var(--color-blue);
+    text-shadow: 1px 1px var(--color-yellow);
+    position: relative;
+}
+
+.items {
+    display: flex;
 }

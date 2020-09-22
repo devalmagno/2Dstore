@@ -6,8 +6,8 @@ import './style.css';
 
 function Item() {
     return (
-        <div className="slider-content">
-            <div className="slider-box">
+        <div className="item-content">
+            <div className="item-box">
                 <img src="https://lojanerdz.com.br/app/uploads/2020/03/nerdzre-zero-light-novel-12.jpg" alt="Re:Zero Vol. 12" />
 
                 <div className="prod-info">

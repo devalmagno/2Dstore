@@ -1,10 +1,11 @@
-.slider-content {
+.item-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 1rem;
 }
 
-.slider-box {
+.item-box {
     width: 260px;
     height: 320px;
     background: linear-gradient(#020100, #FDFFFC);
@@ -19,7 +20,7 @@
     justify-content: space-around;
 }
 
-.slider-box img {
+.item-box img {
     height: 250px;
     top: -0.5rem;
 

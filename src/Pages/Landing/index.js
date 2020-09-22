@@ -2,7 +2,7 @@ import React from 'react';
 
 import PageHeader from '../../components/PageHeader';
 import PageFooter from '../../components/PageFooter';
-import PageSlider from '../../components/PageSlider';
+import PageItem from '../../components/PageItem';
 
 import './style.css';
 
@@ -11,7 +11,13 @@ function Landing() {
         <div id="page-content">
             <PageHeader />
             <div className="container">
-                <PageSlider />
+                <h1>OFERTAS DA SEMANA!</h1>
+                <div className="items">
+                    <PageItem />
+                    <PageItem />
+                    <PageItem />
+                    <PageItem />
+                </div>
             </div>
             <PageFooter />
         </div>
