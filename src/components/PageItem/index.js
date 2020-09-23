@@ -6,7 +6,7 @@ import './style.css';
 
 function Item() {
     return (
-        <div className="item-content">
+        <li className="item-content">
             <div className="item-box">
                 <img src="https://lojanerdz.com.br/app/uploads/2020/03/nerdzre-zero-light-novel-12.jpg" alt="Re:Zero Vol. 12" />
 
@@ -29,7 +29,7 @@ function Item() {
             <div className="cartAdd">
                 <AddShoppingCartIcon fontSize="Large" />
             </div>
-        </div>
+        </li>
     );
 }
 
