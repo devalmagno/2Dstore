@@ -5,7 +5,7 @@ import './style.css';
 function ProductBox() {
     return (
         <div className="product-box">
-
+            
         </div>
     );
 }

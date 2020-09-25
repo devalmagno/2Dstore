@@ -30,6 +30,7 @@ ul {
     height: calc(100vh - 20rem);
     width: 100%;
     background-color: var(--color-primary);
+    display: flex;
 }
 
 @media (min-width: 700px) {
