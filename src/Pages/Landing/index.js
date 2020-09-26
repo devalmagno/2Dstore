@@ -23,6 +23,12 @@ function Landing() {
                 <div className="products">
                     <ProductBox />
                     <ProductBox />
+                    <ProductBox />
+                    <ProductBox />
+                    <ProductBox />
+                    <ProductBox />
+                    <ProductBox />
+                    <ProductBox />
                 </div>
             </div>
             <PageFooter />
