@@ -13,7 +13,7 @@ function Landing() {
             <PageHeader />
             <div className="container">
                 <h1>OFERTAS DA SEMANA!</h1>
-                <ul className="items">
+                <ul className="promotionItems">
                     <PageItem />
                     <PageItem />
                     <PageItem />
@@ -21,14 +21,16 @@ function Landing() {
                     <PageItem />
                 </ul>
                 <div className="products">
-                    <ProductBox />
-                    <ProductBox />
-                    <ProductBox />
-                    <ProductBox />
-                    <ProductBox />
-                    <ProductBox />
-                    <ProductBox />
-                    <ProductBox />
+                    <div className="items">
+                        <ProductBox />
+                        <ProductBox />
+                        <ProductBox />
+                        <ProductBox />
+                        <ProductBox />
+                        <ProductBox />
+                        <ProductBox />
+                        <ProductBox />
+                    </div>
                 </div>
             </div>
             <PageFooter />

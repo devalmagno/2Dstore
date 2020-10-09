@@ -1,6 +1,7 @@
 #page-content {
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 
 ul {
@@ -22,16 +23,20 @@ ul {
     text-shadow: 1px 1px var(--color-yellow);
 }
 
-.items {
+.promotionItems {
     display: flex;
 }
 
 .products {
-    height: calc(100vh - 20rem);
+    height: 100vh;
     width: 100%;
     background-color: var(--color-primary);
+}
+
+.items {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 1.5rem;
 }
 
 @media (min-width: 700px) {
